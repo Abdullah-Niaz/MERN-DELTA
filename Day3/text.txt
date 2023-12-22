@@ -1,0 +1,5 @@
+inline vs block
+div and span 
+hr
+sup * sub
+sementic and unsemantic tag
