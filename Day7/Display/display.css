@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    background-color: blue;
+    color:white;
+    padding: 10px;
+    display: flex;
+}
+
+.block>p{
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+}
