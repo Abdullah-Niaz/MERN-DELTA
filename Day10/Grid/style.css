@@ -1,0 +1,20 @@
+.box{
+    width: 1200px;
+    height: 500px;
+    background-color: blue;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+
+
+}
+
+
+.items{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background-color: green;
+}
+.items:nth-of-type(even){background-color: whitesmoke;}
+.items:nth-of-type(odd){background-color: rgb(79, 179, 201);}

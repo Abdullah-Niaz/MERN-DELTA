@@ -1,0 +1,41 @@
+.box {
+    width: 1200px;
+    height: 500px;
+    background-color: blue;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+
+.items {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background-color: green;
+
+    animation: rotationBox;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-delay: 0.2s;
+}
+
+@keyframes rotationBox {
+    from{
+        translate: 20px 10px; 
+    }   
+    to{
+        
+        translate: 100px 300px; 
+    } 
+}
+
+.items:nth-of-type(even) {
+    background-color: whitesmoke;
+}
+
+.items:nth-of-type(odd) {
+    background-color: rgb(79, 179, 201);
+}
