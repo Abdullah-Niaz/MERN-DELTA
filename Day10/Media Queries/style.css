@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:white;
+}
+header > h1,footer>h1{
+    padding: 20px;
+    background-color: violet;
+    text-align: center;
+}
+.box{
+    /* margin: 20px;
+    width: 1200px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: blueviolet;
+}
+.item{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+.item:nth-last-of-type(even){
+    background-color:thistle ;
+}
+@media (min-width:400px) and (max-width:500px){
+    .box{
+        background-color: rgb(25, 167, 255);
+    }
+    
+}
+
+
+@media (orientation:landscape) {
+    .box{
+        background-color: rgb(255, 167, 2);
+    }
+    
+}
